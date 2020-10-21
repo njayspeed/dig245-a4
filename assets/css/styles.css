@@ -1,2 +1,34 @@
 
 /* css */
+
+/* Positioning */
+.twoColumns{
+    column-count: 1;
+}
+
+/* >= large devices */
+@media (min-width: 992px) {
+    .twoColumns{
+        column-gap: 30px;
+        column-count: 2;
+    }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Colors*/
+.redbg{
+  background-color: #f20909;
+}
+
+.greybg{
+  background-color: #e6e6e6;
+}
+
+body{
+  background-color: #e6e6e6;
+}
